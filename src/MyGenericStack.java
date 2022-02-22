@@ -6,7 +6,7 @@ public class MyGenericStack<T> {
     private LinkedList<T> stack;
 
     public MyGenericStack() {
-        stack = new LinkedList();
+        stack = new LinkedList<>();
     }
 
     //  Cai dat phuong thuc push()
